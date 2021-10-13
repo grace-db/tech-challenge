@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Midwestern Tech Challenge | Home</title>
+  <style>
+    header img {
+        background-color: #222222;
+        float: left;
+        width: 400px;
+        position: relative left top;
+    }
+    header button {
+        position: absolute;
+        top: 10%;
+        right: 6%;
+        display: inline-flex;
+        text-align: center;
+        float: right;
+        background-color: #222222;
+        color: #DEBF79;
+        box-shadow: none;
+        border: 0;
+        font-size: 20px;
+    }
+    @media only screen and (max-width: 620px) {
+        header, section, article {
+            width: 100%;
+        }
+    }
+  </style>
+  <link href="midtechstyle.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<header>
+		<img src="Downloads/midwestern-logo.png" alt="Midwestern" />
+		<a href="Tech Challenge Contact Page.html"><button><strong>contact</strong></button></a>
+</header>
+
+<main>
+<section class="articles">
+    <article class="talkie">
+        <img src="Downloads/Talkie-midwestern.png" alt="Walkie-Talkie Icon">
+        <h2 class="articles">Heading Two</h2>
+        <p class="articles">Integer accumsan molestie nisl, id faucibus urna accumsan quis. Proin vulputate, mauris semper maximus.</p>
+        <div class="align">
+            <button class="articles">Learn More</button>
+        </div>
+    </article>
+    <article class="rabbit">
+        <img src="Downloads/Rabbit-midwestern.png" alt="Rabbit Icon">
+        <h2 class="articles">Heading Two</h2>
+        <p class="articles">Lorem ipsum dolor sit amet, consectetur adipscing elit, sed do eismod tempor incididunt ut labore et dolore</p>
+        <div class="align">
+            <button class="articles">Learn More</button>
+        </div>
+    </article>
+    <article class="shield">
+        <img src="Downloads/Shield-midwestern.png" alt="Shield Icon">
+        <h2 class="articles">Heading Two</h2>
+        <p class="articles">Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eismod tempor incididunt ut labore et dolore</p>
+        <div class="align">
+            <button class="articles">Learn More</button>
+        </div>
+    </article>
+</section>
+<section>
+    <h1><u style="text-decoration-color:#DEBF79">Heading</u> One</h1>
+    <p>Remove the duplicates in 2 JavaScript objects and output the list of distinct names in an unordered list when <input id="button" type="button" value="this link" onclick="done()"> is clicked. If the operation has been completed already notify the user that this has already been done.</p>
+</section>
+<div>
+    <ul id="myList"></ul>
+</div>
+</main>
+<script src="result-list.js"></script>
+</body>
+</html>
